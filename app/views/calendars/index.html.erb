@@ -9,7 +9,9 @@
 
 
   <div class='calendar'>
+
     <% @week_days.each do |day| %>
       <%= render partial: 'calendars/calendar', locals: {day: day}  %>
     <% end %>
+
   </div>
